@@ -16,7 +16,7 @@ Requisitos
 
 
 # Contexto
-##Ecoturismo en Colombia
+## Ecoturismo en Colombia
 
 Esta capa geográfica de información contiene los límites territoriales establecidos por el Ministerio de Ambiente para los Parques Nacionales Naturales de Colombia la cual está disponible también desde http://sig.anla.gov.co:8083/ y ha sido enriquecida con información contenida en el documento "Actualización del cobro de los derechos de ingreso a los Parques Naturales Nacionales de Colombia 2015", con el fin que los usuarios conozcan información acerca de los parques y zonas protegidas del país. 
 
@@ -27,7 +27,7 @@ https://ags.esri.co/server/rest/services/DA_DatosAbiertos/Parques_Nacionales_Nat
 La presente visualización pretende mostrar la diversidad de opciones para escoger entre los parques naturales de Colombia como opción de ecoturismo, brindandonos informcaión de ubicación, tipo de parque, posibilidad de alojamiento entre otros.
 Asi que
 
-##¿Qué tal si escogemos un parque para visitar?
+## ¿Qué tal si escogemos un parque para visitar?
 
 
 
