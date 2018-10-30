@@ -24,12 +24,10 @@ Para mayor información relacionada con los atributos ingrese a:
 https://ags.esri.co/server/rest/services/DA_DatosAbiertos/Parques_Nacionales_Naturales_de_Colombia/MapServer/0
 
 
-La presente visualización pretende mostrar la diversidad de opciones para escoger entre los parques naturales de Colombia como opción de ecoturismo, brindandonos informcaión de ubicación, tipo de parque, posibilidad de alojamiento entre otros.
+La presente visualización pretende mostrar la diversidad de opciones para escoger entre los parques naturales de Colombia como opción de ecoturismo, brindándonos información de ubicación, tipo de parque, posibilidad de alojamiento entre otros.
 Asi que
 
 ## ¿Qué tal si escogemos un parque para visitar?
-
-
 
 
 Los datos originales estan disponibles en:
