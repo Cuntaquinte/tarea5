@@ -1,0 +1,49 @@
+.info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	width:800px;
+	/*margin:0 auto;*/
+	border: solid;
+	border-width: 0.3px;
+	background: #fff;
+	/*visibility: hidden;*/
+}
+
+.datos{
+	font-family: Arial, Helvetica, sans-serif;
+	width:800px;
+	/*margin:0 auto;*/
+	border: solid;
+	border-width: 0.3px;
+	background: #efefef;
+	/*visibility: hidden;*/
+}
+.viz{
+	margin-left: 125px;
+}
+
+
+#blue {
+  top: 1em;
+  left: 1em;
+}
+
+#orange {
+  top: 1em;
+  left: 8em;
+}
+
+#green {
+  top: 1em;
+  left: 16em;`
+
+.node {
+	stroke: white;
+	stroke-width: 2px;
+}
+
+.link {
+	stroke: gray;
+	stroke-width: 4px;
+}

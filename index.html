@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tarea 5 - Fuerzas D3 Js</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">¿Cual parque visitamos?</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contexto">Contexto</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#analisis">Análisis</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#visualization">Viz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <table>
+          <tr>
+            <td><img class="img-fluid mb-5 d-block mx-auto" width="250" height="500" src="img/logo_parques.png" alt=""></td>
+            <td><img class="img-fluid mb-5 d-block mx-auto" width="auto" height="auto" src="img/flamingos.jpg" alt=""></td>
+          </tr>
+        </table>
+        
+        
+        <h1 class="text-uppercase mb-0">Parques Naturales Nacionales de Colombia</h1>
+        <hr class="star-light">
+        <h2 class="font-weight-light mb-0">Ecoturismo en Parques  Naturales</h2>
+      </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="contexto" id="contexto">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contexto</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <p>
+            Estudiante: Carlos Moreno Ibarguen <br>
+            Código: 201627339  <br>
+            Curso: Visual Anlalytics<br>
+            2018 - Universidad de los Andes<br>
+            <br><br><br><br>
+          </p>
+        </div>
+        <div class="row">
+          <h3>Ecoturismo en Colombia</h3><br><br>
+          <p class="description-container">Esta capa geográfica de información contiene los límites
+              territoriales establecidos por el Ministerio de Ambiente para los Parques Nacionales Naturales de Colombia la cual está disponible también desde&nbsp;<a href="http://sig.anla.gov.co:8083/" rel="nofollow noopener noreferrer" target="_blank">http://sig.anla.gov.co:8083/</a>&nbsp;y ha sido enriquecida con información contenida en el documento "Actualización del cobro de los&nbsp;derechos de ingreso a los Parques Naturales Nacionales de Colombia 2015", con el fin que los usuarios conozcan información acerca de los parques y zonas protegidas del país.&nbsp;<br>  
+              <br>  Para mayor información relacionada con los atributos ingrese a:<br>  <a href="https://ags.esri.co/server/rest/services/DA_DatosAbiertos/Parques_Nacionales_Naturales_de_Colombia/MapServer/0" rel="nofollow noopener noreferrer" target="_blank">https://ags.esri.co/server/rest/services/DA_DatosAbiertos/Parques_Nacionales_Naturales_de_Colombia/MapServer/0</a><br><br><br>
+              <br>
+              <p>
+                Código disponible en Github: <a href="">aquí</a>
+              </p>
+             <p>La presente visualización pretende mostrar la diversidad de opciones para escoger entre los parques naturales de Colombia como opción de ecoturismo, brindandonos informcaión de ubicación, tipo de parque, posibilidad de alojamiento entre otros.<br>
+             Asi que </p>
+
+             <h4> ¿Qué tal si escogemos un parque para visitar?</h4><br>
+             <br><br>
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="analisis">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">Análisis</h2>
+        <hr class="star-light mb-5">
+        <br><br><br>
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <h3>What</h3>
+            Data type: Network. Tabla-Red: nodos de red como claves, estado de enlace entre dos nodos como valores.
+            Derived: erarquía de clústeres sobre la red original.
+
+            <p class="lead">
+              <u>Atributos</u>
+                <table>
+                  <tr>
+                     <tr><td>id</td><td> - Ordinal -secuencial</td></tr>
+                     <tr><td>nombre</td><td> - Categorico</td></tr>
+                     <tr><td>no_Res_Vi</td><td> - Categorico</td></tr>
+                     <tr><td>area_Res</td><td> - Ordinal- secuencial</td></tr>
+                     <tr><td>región</td><td> - Categorico</td></tr>
+                     <tr><td>categoría</td><td> - Categorico</td></tr>
+                     <tr><td>cos_Adulto</td><td> - Ordinal - secuencial</td></tr>
+                     <tr><td>cos_Ninos</td><td> - Ordinal - secuencial</td></tr>
+                     <tr><td>alojamiento</td><td> - Categorico</td></tr>
+                     <tr><td>camping</td><td> - Categorico</td></tr>
+                  </tr>
+                </table>
+              </p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <h3>Why</h3>
+            <p class="lead">
+                <ul>
+                  <li>Explore topology </li>
+                  <li>locate paths</li>
+                  <li>locate clusters</li>
+                </ul>
+              </p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <h3>How</h3>
+            <p class="lead">
+              Idiom: Force-Directed Placement
+              Marcas:
+                <ul>
+                  <li>puntos,  (para representar los nodos)</li>
+                  <li>colores,  (mostrar la asociación de categorías)</li>
+                  <li>marcas de conexión,   (para representar  los links) </li>
+                </ul>
+              Canales:
+                <ul>
+                  <li>puntos,  (para representar los nodos)</li>
+                  <li>colores,  (mostrar la asociación de categorías)</li>
+                  <li>marcas de conexión,   (para representar  los links) </li>
+                </ul>
+              </p>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br><br><br>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="visualization">
+          <h1 style="margin-left: 125px;">Visualización - Parques Nacionales de Colombia  </h1>
+          <spam  style="margin-left: 125px;">Para explorar la visualización , debe dar click sobre alguno de los nodos, esto mostrará toda la información de los parques de acuerdo a su ubicación.</spam>
+          <table class="viz" border=1>
+            <tr>
+              <td ><svg id="network">  </svg></td>
+              <td ><div id="qContainer">
+                    <table class="datos" cellpadding=2>
+                      <thead>
+                        <td>Nombre</td>
+                        <td>Region</td>
+                        <td>Area en km<sup>2</sup></td>
+                        <td>Categoria</td>
+                        <td>Alojamiento</td>
+                        <td>Camping</td>
+                      </thead>
+
+                      <tbody class="info" ></tbody>
+                    </table>
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+    </section>
+
+   
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy;Carlos Moreno Ibarguen - Tarea#5 - Visual Analytics - Uniandes -  2018</small>
+      </div>
+    </div>
+
+   
+
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/visualization_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js" ></script>
+    <script src="js/qforces.js"></script>
+
+  </body>
+
+</html>
