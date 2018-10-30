@@ -44,7 +44,7 @@ El objetivo del proyecto es generar una visualización  que permita tener elemen
 
 
 # Tareas Secundarias:
-- Determinar donde hay l amayor variedad de ofertas de parques naturales.
+- Determinar donde hay la mayor variedad de ofertas de parques naturales.
 
 
 # Analisis de los datos
@@ -52,7 +52,7 @@ El objetivo del proyecto es generar una visualización  que permita tener elemen
 Se organizaron los datos por para generar nodos y links
 
 ## What?
-Los datos se obtuvieron de un Dataset tipo : Network. Tabla-Red: nodos de red como claves, estado de enlace entre dos nodos como valores. Derived: erarquía de clústeres sobre la red original.
+Los datos se obtuvieron de un Dataset tipo : Network. Tabla-Red: nodos de red como claves, estado de enlace entre dos nodos como valores. Derived: jerarquía de clústeres sobre la red original.
 ### Tipos de atributos
 
 Atributos
@@ -73,6 +73,7 @@ Atributos
 - Explore topology
 - Locate paths
 - Locate clusters
+- Enjoy
 
 ## How?
 
@@ -80,12 +81,11 @@ Atributos
 
 ### Marcas 
 - puntos, (para representar los nodos)
-- colores, (mostrar la asociación de categorías)
 - marcas de conexión, (para representar los links)
+
 ### Canales:
 - puntos, (para representar los nodos)
 - colores, (mostrar la asociación de categorías)
- - marcas de conexión, (para representar los links)
 
 
 ## Licencia MIT
