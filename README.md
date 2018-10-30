@@ -46,6 +46,8 @@ El objetivo del proyecto es generar una visualización  que permita tener elemen
 # Tareas Secundarias:
 - Determinar donde hay la mayor variedad de ofertas de parques naturales.
 
+- Para un turista saber la oferta de parques naturales nacionales, puede ser interesante saber características relevantes de los mismos para planear un viaje ecoturístico. ###(Insight1)
+- Debido a que hay mucha diversidad natural en el país, conocer la distribución de estos parques es muy útil cuando se desea promocionar paquetes o consultar opciones de destinos ecoturisticos ###(Insight2).
 
 # Analisis de los datos
 ## Preprocesamiento de datos. 
